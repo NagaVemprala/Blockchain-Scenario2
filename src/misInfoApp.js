@@ -486,7 +486,7 @@ const appABI = [
 
 const appContract = (provider) => {
     return new ethers.Contract(
-        "0x89E4cba7B6521a61204C76D8dA25d5f8f2cc2eCe", //
+        "0x93f850a1c07d4A043c4d15b3672247bE77bc1167", //
 		appABI,
 		provider
     )
