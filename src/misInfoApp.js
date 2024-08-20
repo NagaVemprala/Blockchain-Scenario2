@@ -376,26 +376,6 @@ const appABI = [
 				"internalType": "string",
 				"name": "",
 				"type": "string"
-			},
-			{
-				"internalType": "uint16",
-				"name": "",
-				"type": "uint16"
-			},
-			{
-				"internalType": "uint16",
-				"name": "",
-				"type": "uint16"
-			},
-			{
-				"internalType": "uint16",
-				"name": "",
-				"type": "uint16"
-			},
-			{
-				"internalType": "uint16",
-				"name": "",
-				"type": "uint16"
 			}
 		],
 		"stateMutability": "view",
@@ -486,7 +466,7 @@ const appABI = [
 
 const appContract = (provider) => {
     return new ethers.Contract(
-        "0xe2813c5e568bf54ae58faed6513995fd6eec29d3", //
+        "0x191416ac2d9fb6f8ed7f04af45b236722edce910", //
 		appABI,
 		provider
     )
