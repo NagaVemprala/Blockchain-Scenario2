@@ -71,7 +71,7 @@ const appABI = [
 
 const factoryContract = (provider) => {
     return new ethers.Contract(
-        "0x45bb26b5f45c1ba392b15efdff1ad0c70ceb21ac",
+        "0xaa399e4361a859c17a9eb8e079936258d1ae73ac",
 		appABI,
 		provider
     )
