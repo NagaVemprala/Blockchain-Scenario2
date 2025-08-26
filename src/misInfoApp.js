@@ -466,13 +466,14 @@ const appABI = [
 
 const appContract = (provider) => {
     return new ethers.Contract(
-        "0xa5E56b04923111266467225CFBD53930546291E3", //
+        "0xaa399e4361a859c17a9eb8e079936258d1ae73ac", //
 		appABI,
 		provider
     )
 }
 
 export default appContract;
+
 
 
 
